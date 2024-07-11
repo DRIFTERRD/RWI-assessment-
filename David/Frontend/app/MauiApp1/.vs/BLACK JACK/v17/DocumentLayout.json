@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|c:\\users\\david\\onedrive\\desktop\\mauiapp1\\mauiapp1\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|solutionrelative:mauiapp1\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\David\\AppData\\Local\\Temp\\.vsdbgsrc\\883605fde99854b0724e13731cb6e6e3fbdc47c4\\MainPage.xaml.sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|c:\\users\\david\\onedrive\\desktop\\mauiapp1\\mauiapp1\\gameinprogressviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|solutionrelative:mauiapp1\\gameinprogressviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|c:\\users\\david\\onedrive\\desktop\\mauiapp1\\mauiapp1\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|solutionrelative:mauiapp1\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|c:\\users\\david\\onedrive\\desktop\\mauiapp1\\mauiapp1\\gameinprogresspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|solutionrelative:mauiapp1\\gameinprogresspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|c:\\users\\david\\onedrive\\desktop\\mauiapp1\\mauiapp1\\gameinprogresspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|solutionrelative:mauiapp1\\gameinprogresspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|c:\\users\\david\\onedrive\\desktop\\mauiapp1\\mauiapp1\\gamepage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|solutionrelative:mauiapp1\\gamepage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|c:\\users\\david\\onedrive\\desktop\\mauiapp1\\mauiapp1\\game_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|solutionrelative:mauiapp1\\game_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|c:\\users\\david\\onedrive\\desktop\\mauiapp1\\mauiapp1\\gamepage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|solutionrelative:mauiapp1\\gamepage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|c:\\users\\david\\onedrive\\desktop\\mauiapp1\\mauiapp1\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|solutionrelative:mauiapp1\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.sg.cs",
+              "DocumentMoniker": "C:\\Users\\David\\AppData\\Local\\Temp\\.vsdbgsrc\\883605fde99854b0724e13731cb6e6e3fbdc47c4\\MainPage.xaml.sg.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\883605fde99854b0724e13731cb6e6e3fbdc47c4\\MainPage.xaml.sg.cs",
+              "ToolTip": "C:\\Users\\David\\AppData\\Local\\Temp\\.vsdbgsrc\\883605fde99854b0724e13731cb6e6e3fbdc47c4\\MainPage.xaml.sg.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\883605fde99854b0724e13731cb6e6e3fbdc47c4\\MainPage.xaml.sg.cs [Read Only]",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T22:23:39.966Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MauiApp1\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\MainPage.xaml",
+              "RelativeToolTip": "MauiApp1\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-18T22:20:29.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\MauiProgram.cs",
+              "RelativeToolTip": "MauiApp1\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T22:20:18.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameInProgressPage.xaml",
+              "DocumentMoniker": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\GameInProgressPage.xaml",
+              "RelativeDocumentMoniker": "MauiApp1\\GameInProgressPage.xaml",
+              "ToolTip": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\GameInProgressPage.xaml",
+              "RelativeToolTip": "MauiApp1\\GameInProgressPage.xaml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAkwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-18T21:47:33.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameLogic.cs",
+              "DocumentMoniker": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\GameLogic.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\GameLogic.cs",
+              "ToolTip": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\GameLogic.cs",
+              "RelativeToolTip": "MauiApp1\\GameLogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T17:13:47.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Game_Page.cs",
+              "DocumentMoniker": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\Game_Page.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Game_Page.cs",
+              "ToolTip": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\Game_Page.cs",
+              "RelativeToolTip": "MauiApp1\\Game_Page.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T17:13:42.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GamePage1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\GamePage1.xaml.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\GamePage1.xaml.cs",
+              "ToolTip": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\GamePage1.xaml.cs",
+              "RelativeToolTip": "MauiApp1\\GamePage1.xaml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAD4vxcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T17:14:48.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GamePage1.xaml",
+              "DocumentMoniker": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\GamePage1.xaml",
+              "RelativeDocumentMoniker": "MauiApp1\\GamePage1.xaml",
+              "ToolTip": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\GamePage1.xaml",
+              "RelativeToolTip": "MauiApp1\\GamePage1.xaml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAkwD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-18T17:13:51.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameInProgressPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\GameInProgressPage.xaml.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\GameInProgressPage.xaml.cs",
+              "ToolTip": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\GameInProgressPage.xaml.cs",
+              "RelativeToolTip": "MauiApp1\\GameInProgressPage.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswBcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T21:48:46.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameInProgressViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\GameInProgressViewModel.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\GameInProgressViewModel.cs",
+              "ToolTip": "C:\\Users\\David\\OneDrive\\Desktop\\MauiApp1\\MauiApp1\\GameInProgressViewModel.cs",
+              "RelativeToolTip": "MauiApp1\\GameInProgressViewModel.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAD4vyUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T21:48:27.179Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

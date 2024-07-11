@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Views.GameInProgressPage"
+             xmlns:viewmodel="clr-namespace:MauiApp1.ViewModels"
+             x:DataType="viewmodel:GameInProgressPageViewModel">
+
+
+    <Grid>
+        <!-- Background Image -->
+        <Image Source="background.jpg" Aspect="AspectFill" />
+
+        <!-- Main Grid for content alignment -->
+        <Grid Padding="20">
+            <!-- StackLayout for Your Bet and Bank -->
+            <StackLayout VerticalOptions="Start" HorizontalOptions="Center" Orientation="Horizontal" Spacing="30">
+                <StackLayout>
+                    <Label Text="Your Bet" FontSize="Subtitle" HorizontalOptions="Center" />
+                    <!-- Selected Value Label for the bet -->
+                    <Label x:Name="BetValueLabel" Text="{Binding BetValueText}" FontSize="Large" FontAttributes="Bold"
+                           HorizontalOptions="Center" Margin="0,10"/>
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="Bank" FontSize="Subtitle" HorizontalOptions="Center" />
+                    <!-- Bank -->
+                    <Label x:Name="Bank_Winnings" Text="{Binding BankWinningsText}" FontSize="Large"
+                           FontAttributes="Bold" HorizontalOptions="Center" Margin="0,10" />
+                </StackLayout>
+            </StackLayout>
+
+            <!-- StackLayout for Hit and Stand buttons -->
+            <StackLayout VerticalOptions="End" HorizontalOptions="Center" Margin="0,0,0,20">
+                <!-- Hit and Stand buttons -->
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Button x:Name="HitButton" Text="Hit" Command="{Binding HitButton_ClickedCommand}" 
+                            BackgroundColor="Gold" IsEnabled="{Binding HitButtonEnable}"
+                            WidthRequest="140" HeightRequest="70" FontSize="Large" Margin="5" />
+                    <Button x:Name="StandButton" Text="Stand" Command="{Binding StandButton_ClickedCommand}" 
+                            BackgroundColor="Gold" IsEnabled="{Binding StandButtonEnable}"
+                            WidthRequest="140" HeightRequest="70" FontSize="Large" Margin="5" />
+                </StackLayout>
+            </StackLayout>
+
+            <!-- Image of a deck of cards -->
+            <Image Source="deck_of_cards.png" Aspect="AspectFit" VerticalOptions="Center" HorizontalOptions="End"
+                   HeightRequest="350" Margin="0,0,20,0" />
+
+            <StackLayout x:Name="CardStack" 
+                         BindableLayout.ItemsSource="{Binding PlayerCards}"
+                         Orientation="Horizontal"
+                         HorizontalOptions="CenterAndExpand" 
+                         VerticalOptions="CenterAndExpand"
+                         HeightRequest="350"
+                         Margin="0,0.5">
+                <!-- Player's cards will be dinamicly added here -->
+            </StackLayout>
+
+            <StackLayout x:Name="DealerCardStack"
+             BindableLayout.ItemsSource="{Binding DealerCards}"             
+             Orientation="Horizontal"
+             HorizontalOptions="Start"
+             VerticalOptions="Start"
+             Margin="10">
+                <!-- Dealer's cards will be added here -->
+            </StackLayout>
+            
+            
+
+            <!-- Back button at the bottom right corner -->
+            <Button Text="Back" Command="{Binding BackButton_ClickedCommand}" BackgroundColor="Transparent"
+                    HorizontalOptions="End" VerticalOptions="End" IsEnabled="{Binding BackButtonEnable}"
+                    Margin="20" WidthRequest="100" HeightRequest="50" 
+                    FontSize="Large" TextColor="White" />
+
+            <!-- StackLayout for Player and Dealer values at the bottom left corner -->
+            <StackLayout Orientation="Vertical" HorizontalOptions="Start" VerticalOptions="End" Margin="20">
+                <Label x:Name="PlayerValueLabel" Text="{Binding PlayerValueText}" FontSize="Medium" TextColor="White" />
+                <Label x:Name="DealerValueLabel" Text="{Binding DealerValueText}" FontSize="Medium" TextColor="White" />
+            </StackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

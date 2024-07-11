@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\David\\OneDrive\\Desktop\\DavidFB\\David\\Backend\\Black Jack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F001A195-FE88-4C84-A2D9-DCBB95F3D2C7}|Black Jack.csproj|c:\\users\\david\\onedrive\\desktop\\davidfb\\david\\backend\\black jack\\backend\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F001A195-FE88-4C84-A2D9-DCBB95F3D2C7}|Black Jack.csproj|solutionrelative:backend\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F001A195-FE88-4C84-A2D9-DCBB95F3D2C7}|Black Jack.csproj|c:\\users\\david\\onedrive\\desktop\\davidfb\\david\\backend\\black jack\\backend\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F001A195-FE88-4C84-A2D9-DCBB95F3D2C7}|Black Jack.csproj|solutionrelative:backend\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F001A195-FE88-4C84-A2D9-DCBB95F3D2C7}|Black Jack.csproj|c:\\users\\david\\onedrive\\desktop\\davidfb\\david\\backend\\black jack\\backend\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F001A195-FE88-4C84-A2D9-DCBB95F3D2C7}|Black Jack.csproj|solutionrelative:backend\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F001A195-FE88-4C84-A2D9-DCBB95F3D2C7}|Black Jack.csproj|c:\\users\\david\\onedrive\\desktop\\davidfb\\david\\backend\\black jack\\backend\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F001A195-FE88-4C84-A2D9-DCBB95F3D2C7}|Black Jack.csproj|solutionrelative:backend\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\David\\OneDrive\\Desktop\\DavidFB\\David\\Backend\\Black Jack\\Backend\\Connection.cs",
+              "RelativeDocumentMoniker": "Backend\\Connection.cs",
+              "ToolTip": "C:\\Users\\David\\OneDrive\\Desktop\\DavidFB\\David\\Backend\\Black Jack\\Backend\\Connection.cs",
+              "RelativeToolTip": "Backend\\Connection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T17:23:44.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Server.cs",
+              "DocumentMoniker": "C:\\Users\\David\\OneDrive\\Desktop\\DavidFB\\David\\Backend\\Black Jack\\Backend\\Server.cs",
+              "RelativeDocumentMoniker": "Backend\\Server.cs",
+              "ToolTip": "C:\\Users\\David\\OneDrive\\Desktop\\DavidFB\\David\\Backend\\Black Jack\\Backend\\Server.cs",
+              "RelativeToolTip": "Backend\\Server.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwEoAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T17:12:39.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\David\\OneDrive\\Desktop\\DavidFB\\David\\Backend\\Black Jack\\Backend\\Card.cs",
+              "RelativeDocumentMoniker": "Backend\\Card.cs",
+              "ToolTip": "C:\\Users\\David\\OneDrive\\Desktop\\DavidFB\\David\\Backend\\Black Jack\\Backend\\Card.cs",
+              "RelativeToolTip": "Backend\\Card.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T15:30:57.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\David\\OneDrive\\Desktop\\DavidFB\\David\\Backend\\Black Jack\\Backend\\Game.cs",
+              "RelativeDocumentMoniker": "Backend\\Game.cs",
+              "ToolTip": "C:\\Users\\David\\OneDrive\\Desktop\\DavidFB\\David\\Backend\\Black Jack\\Backend\\Game.cs",
+              "RelativeToolTip": "Backend\\Game.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAiwKIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T15:20:05.619Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

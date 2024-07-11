@@ -1,0 +1,69 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.GamePage">
+
+    <Grid>
+        <!-- Background Image -->
+        <Image Source="background.jpg" Aspect="AspectFill" />
+
+        <!-- Main Grid for content alignment -->
+        <Grid Padding="20">
+            <!-- Betting chips and +/- buttons layout -->
+            <StackLayout x:Name="ChipsLayout" VerticalOptions="Center" HorizontalOptions="Center" Orientation="Horizontal" Spacing="10" Margin="40,40,40,40">
+                <!-- First Row of Chips -->
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <ImageButton Source="chip1.2.png" WidthRequest="120" HeightRequest="120" Clicked="BettingChip_Clicked"
+                                 BackgroundColor="Transparent" Padding="0" Margin="0" />
+                    <ImageButton Source="chip2.2.png" WidthRequest="120" HeightRequest="120" Clicked="BettingChip_Clicked"
+                                 BackgroundColor="Transparent" Padding="0" Margin="0" />
+                    <ImageButton Source="chip3.2.png" WidthRequest="120" HeightRequest="120" Clicked="BettingChip_Clicked"
+                                 BackgroundColor="Transparent" Padding="0" Margin="0" />
+                </StackLayout>
+                <!-- Second Row of Chips -->
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <ImageButton Source="chip4.2.png" WidthRequest="120" HeightRequest="120" Clicked="BettingChip_Clicked"
+                                 BackgroundColor="Transparent" Padding="0" Margin="0" />
+                    <ImageButton Source="chip5.2.png" WidthRequest="120" HeightRequest="120" Clicked="BettingChip_Clicked"
+                                 BackgroundColor="Transparent" Padding="0" Margin="0" />
+                    <ImageButton Source="chip6.2.png" WidthRequest="120" HeightRequest="120" Clicked="BettingChip_Clicked"
+                                 BackgroundColor="Transparent" Padding="0" Margin="0" />
+                </StackLayout>
+            </StackLayout>
+
+            <!-- StackLayout for Credit Label, +/- buttons, SelectedValueLabel -->
+            <StackLayout x:Name="PlusMinusLayout" VerticalOptions="End" HorizontalOptions="Center" Margin="0,0,0,20">
+                <!-- Bank -->
+                <Label x:Name="Bank_Winnings" Text="Bank: 5000$" FontSize="Header"
+                         FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,0,0,21" />
+
+
+                <!-- StackLayout for +/- buttons and SelectedValueLabel -->
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                    <!-- Minus Button -->
+                    <ImageButton Source="minus1.png" WidthRequest="50" HeightRequest="50" Clicked="MinusButton_Clicked"
+                                 BackgroundColor="Transparent" Padding="0" Margin="0" />
+
+                    <!-- Selected Value Label -->
+                    <Label x:Name="SelectedValueLabel" Text="0$" FontSize="Large" 
+                           FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" Margin="10,0" />
+
+                    <!-- Plus Button -->
+                    <ImageButton Source="plus1.png" WidthRequest="50" HeightRequest="50" Clicked="PlusButton_Clicked"
+                                 BackgroundColor="Transparent" Padding="0" Margin="0" />
+                </StackLayout>
+
+                <!-- Deal Button -->
+                <Button x:Name="DealButton" Text="Deal" Clicked="DealButton_Clicked" 
+                        BackgroundColor="Gold"
+                        WidthRequest="140" HeightRequest="70" FontSize="Large" Margin="5" />
+            </StackLayout>
+        </Grid>
+
+        <!-- Reset Button positioned at the bottom right corner -->
+        <Button x:Name="Reset" Text="RESET" Clicked="Reset_Clicked" 
+                BackgroundColor="Gold"
+                WidthRequest="140" HeightRequest="70" FontSize="Large" Margin="5,0,40,40"
+                HorizontalOptions="End" VerticalOptions="End" />
+
+    </Grid>
+</ContentPage>

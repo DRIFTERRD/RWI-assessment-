@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Views.GamePage"
+             xmlns:viewmodel="clr-namespace:MauiApp1.ViewModels"
+             x:DataType="viewmodel:GamePageViewModel">
+    <Grid>
+        <!-- Background Image -->
+        <Image Source="background.jpg" Aspect="AspectFill" />
+
+        <!-- Main Grid for content alignment -->
+        <Grid Padding="20">
+            <!-- Betting chips and +/- buttons layout -->
+            <StackLayout x:Name="ChipsLayout" VerticalOptions="Center" HorizontalOptions="Center" Orientation="Horizontal" Spacing="10" Margin="40,40,40,40">
+                <!-- First Row of Chips -->
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <ImageButton Source="chip1.png" WidthRequest="120" HeightRequest="120" Command="{Binding BettingChip1Command}"
+                                 BackgroundColor="Transparent" Padding="0" Margin="0" />
+                    <ImageButton Source="chip2.png" WidthRequest="120" HeightRequest="120" Command="{Binding BettingChip2Command}"
+                                 BackgroundColor="Transparent" Padding="0" Margin="0" />
+                    <ImageButton Source="chip3.png" WidthRequest="120" HeightRequest="120" Command="{Binding BettingChip3Command}"
+                                 BackgroundColor="Transparent" Padding="0" Margin="0" />
+                </StackLayout>
+                <!-- Second Row of Chips -->
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <ImageButton Source="chip4.png" WidthRequest="120" HeightRequest="120" Command="{Binding BettingChip4Command}"
+                                 BackgroundColor="Transparent" Padding="0" Margin="0" />
+                    <ImageButton Source="chip5.png" WidthRequest="120" HeightRequest="120" Command="{Binding BettingChip5Command}"
+                                 BackgroundColor="Transparent" Padding="0" Margin="0" />
+                    <ImageButton Source="chip6.png" WidthRequest="120" HeightRequest="120" Command="{Binding BettingChip6Command}"
+                                 BackgroundColor="Transparent" Padding="0" Margin="0" />
+                </StackLayout>
+            </StackLayout>
+
+            <!-- StackLayout for Credit Label, +/- buttons, SelectedValueLabel -->
+            <StackLayout x:Name="PlusMinusLayout" VerticalOptions="End" HorizontalOptions="Center" Margin="0,0,0,20">
+                <!-- Bank -->
+                <Label x:Name="Bank_Winnings" Text="{Binding BankText}" FontSize="Header"
+                         FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,0,0,21" />
+
+
+                <!-- StackLayout for +/- buttons and SelectedValueLabel -->
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                    <!-- Minus Button -->
+                    <ImageButton Source="minus1.png" WidthRequest="50" HeightRequest="50" Command="{Binding MinusButton_ClickedCommand}"
+                                 BackgroundColor="Transparent" Padding="0" Margin="0" />
+
+                    <!-- Selected Value Label -->
+                    <Label x:Name="SelectedValueLabel" Text="{Binding SelectedText}" FontSize="Large" 
+                           FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" Margin="10,0" />
+
+                    <!-- Plus Button -->
+                    <ImageButton Source="plus1.png" WidthRequest="50" HeightRequest="50" Command="{Binding PlusButton_ClickedCommand}"
+                                 BackgroundColor="Transparent" Padding="0" Margin="0" />
+                </StackLayout>
+
+                <!-- Deal Button -->
+                <Button x:Name="DealButton" Text="Deal" Command="{Binding DealButton_ClickedCommand}"
+                        BackgroundColor="Gold" IsEnabled="{Binding DealButtonEnable}"
+                        WidthRequest="140" HeightRequest="70" FontSize="Large" Margin="5" />
+            </StackLayout>
+        </Grid>
+
+        <!-- Reset Button positioned at the bottom right corner -->
+        <Button x:Name="Reset" Text="RESET" Command="{Binding Reset_ClickedCommand}" 
+                BackgroundColor="Gold" IsEnabled="{Binding ResetButtonEnable}"
+                WidthRequest="140" HeightRequest="70" FontSize="Large" Margin="5,0,40,40"
+                HorizontalOptions="End" VerticalOptions="End" />
+
+    </Grid>
+</ContentPage>

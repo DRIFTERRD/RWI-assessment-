@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Black Jack": {
+      "commandName": "Project",
+      "commandLineArgs": "Server"
+    }
+  }
+}

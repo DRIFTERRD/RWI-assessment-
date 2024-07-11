@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\David\\OneDrive\\Desktop\\DavidFB\\David\\Frontend\\app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|c:\\users\\david\\onedrive\\desktop\\davidfb\\david\\frontend\\app\\mauiapp1\\models\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|solutionrelative:mauiapp1\\models\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|c:\\users\\david\\onedrive\\desktop\\davidfb\\david\\frontend\\app\\mauiapp1\\viewmodels\\gameinprogresspageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|solutionrelative:mauiapp1\\viewmodels\\gameinprogresspageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|c:\\users\\david\\onedrive\\desktop\\davidfb\\david\\frontend\\app\\mauiapp1\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD61007-A972-46E0-A223-674FC053E960}|MauiApp1\\BLACK JACK.csproj|solutionrelative:mauiapp1\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\David\\OneDrive\\Desktop\\DavidFB\\David\\Frontend\\app\\MauiApp1\\Models\\Connection.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Models\\Connection.cs",
+              "ToolTip": "C:\\Users\\David\\OneDrive\\Desktop\\DavidFB\\David\\Frontend\\app\\MauiApp1\\Models\\Connection.cs",
+              "RelativeToolTip": "MauiApp1\\Models\\Connection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T17:53:26.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameInProgressPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\David\\OneDrive\\Desktop\\DavidFB\\David\\Frontend\\app\\MauiApp1\\ViewModels\\GameInProgressPageViewModel.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\ViewModels\\GameInProgressPageViewModel.cs",
+              "ToolTip": "C:\\Users\\David\\OneDrive\\Desktop\\DavidFB\\David\\Frontend\\app\\MauiApp1\\ViewModels\\GameInProgressPageViewModel.cs",
+              "RelativeToolTip": "MauiApp1\\ViewModels\\GameInProgressPageViewModel.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAuwJ0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T17:18:08.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\David\\OneDrive\\Desktop\\DavidFB\\David\\Frontend\\app\\MauiApp1\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Models\\Game.cs",
+              "ToolTip": "C:\\Users\\David\\OneDrive\\Desktop\\DavidFB\\David\\Frontend\\app\\MauiApp1\\Models\\Game.cs",
+              "RelativeToolTip": "MauiApp1\\Models\\Game.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T17:11:27.549Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
